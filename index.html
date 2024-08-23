@@ -1,34 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JQuery</title>
-    <link rel="preconnect" href="http://fonts.googleapis.com">
-    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./main.css">
-
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <header>
-        <h1>Lista de Tarefas</h1>
-        <button type="button">Nova tarefa +</button>
-    </header>
-    <form>
-        <h2>Inserir nova tarefa</h2>
-        <input type="text" id="nome-nova-tarefa" required placeholder="Nome da tarefa">
-        <button type="submit">Adicionar</button>
-        <button type="reset" id="botao-cancelar">Cancelar</button>
-    </form>
-    <ul>
-        <li>Tarefa</li>
-        <li>Tarefa 02</li>
-    </ul>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="main.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Entre em contato</h2>
+                <form>
+                    <label class="form-label" for="nome>">Seu nome: </label>
+                    <input class="form-control" type="text" id="nome">
+                    <label class="form-label" for="email>">Seu email: </label>
+                    <input class="form-control" type="text" id="email">
+                    <label class="form-label" for="email>">Telefone: </label>
+                    <input class="form-control" type="text" id="email">
+                    <div class="button btn btn-success">Enviar</div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>
